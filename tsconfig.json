@@ -1,11 +1,21 @@
 {
   "compilerOptions": {
+    // 目标代码
     "target": "esnext",
+    // 生成代码使用的模块化
     "module": "esnext",
+    // 打开所有的严格模式检查
     "strict": true,
+    "allowJs": false,
+    "noImplicitAny": false,
+    // jsx 的处理方式(保留原有的jsx格式)
     "jsx": "preserve",
+    // 是否帮助导入一些需要的功能模块
+    "importHelpers": true,
+    // 按照node的模块解析规则
     "moduleResolution": "node",
     "experimentalDecorators": true,
+    // 跳过对整个库的类型检测, 仅检测用到的类型
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
